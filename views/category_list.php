@@ -7,6 +7,10 @@
     <?php 
         require_once './php/main.php';
 
+        if (isset($_GET['category_id_del'])) {
+            require_once './php/category_delete.php';
+        }
+
         if ( !isset($_GET['page'])) {
             $page = 1;
         } else {
@@ -17,7 +21,7 @@
         }
         
         $page = clear_texts($page);
-        $url = "index.php?view=list_category&page=";
+        $url = "index.php?view=category_list&page=";
         $registers = 10;
         $search = "";
 
