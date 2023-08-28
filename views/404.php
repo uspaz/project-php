@@ -9,6 +9,8 @@
         border-radius: 10px;
         ">
         <h2 style="margin-bottom: 15px; font-size: 38px;">Algo salió mal</h2>
+        <a style="color:white; " href="index.php?view=home">
+
         <button 
             style="width: 200px;
                 height: 40px;
@@ -21,5 +23,6 @@
             ">
             Volver atrás
         </button>
+        </a>
     </div>
 </main>
