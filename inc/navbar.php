@@ -48,10 +48,10 @@
             </a>
 
             <div class="navbar-dropdown">
-                <a class="navbar-item">New</a>
-                <a class="navbar-item">List</a>
-                <a class="navbar-item">By Category</a>
-                <a class="navbar-item">Search</a>
+                <a class="navbar-item" href="index.php?view=new_product">New</a>
+                <a class="navbar-item" href="index.php?view=product_list">List</a>
+                <a class="navbar-item" href="index.php?view=product_by_category">By Category</a>
+                <a class="navbar-item" href="index.php?view=product_search">Search</a>
             </div>
         </div>
     </div>
